@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	width: 70%;
+	margin:auto;
+	background-color: pink;
+}
+ul {
+	list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+	float: left;
+	display: block;
+	text-align: center;
+    padding: 14px 16px;
+}
+
+/*
+nav ul li{
+	display: inline-block;
+	padding: 3% 4% 3% 4%;
+	float: left;
+	list-style: none;
+	background-color:green;
+}
+
+nav ul li:first-child{
+	padding: 0 2% 0 2%;
+}
+*/
+#principal{
+	padding: 2% 0 2% 0;
+	width: 70%;
+	margin:auto;
+	background-color: #d3d3d3;
+	color: white;
+}
+
+#title{
+	font-size:1.8em;
+	text-align:center;
+	background-color: orange;
+	margin: 0 0 3% 0;
+}
+
+#imageCity{
+	background-image: url("ceara-mirim2.jpg");
+	background-size: cover;
+	margin: 0 12% 2% 12%;
+	width: 75%;
+	height: 300px;
+	background-color: blue;
+}
+
+#aboutCity{
+	margin: 0 12% 5% 12%;
+	width: 75%;
+	background-color: green;
+}
+#aboutCity p{
+	font-size:1.1em;
+	padding: 2% 2% 2% 2%;
+	background-color: red;
+}
+
+footer{
+	width: 70%;
+	margin:auto;
+	background-color: red;
+}
