@@ -47,47 +47,15 @@ nav ul li:first-child{
 	color: white;
 }
 
-#pontos{
-	width:100%;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: center;
+#title{
+	font-size:1.8em;
+	text-align:center;
+	background-color: orange;
+	margin: 0 0 3% 0;
 }
 
-#pontos div {
-	border-style: solid;
-	width: 40%;
-	padding: 2% 0 2% 0;
-	background-color: yellow;
-	text-align: justify;
-	margin-bottom:2%;
-}
-
-#pontos div:nth-child(odd){
-	margin-right:2%;
-}
-
-#pontos div img{
-	margin: 0 10% 0 10%;
-}
-
-#pontos div p {
-	margin: 0 10% 0 10%;
-}
-
-.button{
-	margin-left:10%;
-	margin-top:2%;
-	background-color: #4CAF50;
-    border: none;
-    border-radius: 1em;
-    color: white;
-    padding: 2% 4% 2% 4%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+#map {
+  height: 550px;
 }
 
 footer{

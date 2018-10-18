@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Localizacao </title>
+	<link rel="stylesheet" type="text/css" href="../css/localizacao.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+
+	<nav>
+		<ul> 
+			<li> <a href="principal.html"> <img src="../images/brasao_ceara_mirim.png" height="40px" /> </a> </li>
+			<li> <a href='historia.html'> <i class="fas fa-book-open">  História </i> </a> </li>
+			<li> <a href='pontos.html'> Turismo  </a> </li>
+			<li> <a href='cultura.html'> Cultura </a> </li>
+			<li> <a href='localizacao.html'> <i class="fas fa-globe-africa"> Localização </i> </a> </li>
+			<li> <a href='galeria.html'> <i class="fas fa-images">  Galeria </i> </a> </li>
+		</ul> 
+	</nav>
+
+	<section id='principal'>
+		<section id='map'>
+		    <script>
+		      function initMap() {
+		        var uluru = {
+		          lat: -5.63333,
+		          lng: -35.4333
+		        };
+		        var map = new google.maps.Map(document.getElementById('map'), {
+		          zoom: 10,
+		          center: uluru
+		        });
+		        var marker = new google.maps.Marker({
+		          position: uluru,
+		          map: map
+		        });
+		      }
+		    </script>
+		    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-ajOzclJa2U-e_nxab_qy7KgntBFy8tM&callback=initMap">
+		    </script>
+	  	</section>
+	 </section>
+
+	 <footer> 
+		<a> &#169; Copyright - All rights reserved </a>
+		<a> emailsemsentido@gmail.com </a>
+		<a> (84) 40028922 </a>
+	</footer>
+
+</body>
+</html>
