@@ -65,19 +65,19 @@ nav ul li:first-child{
 }*/
 
 #aboutCity{
-	margin: 0 12% 0 12%;
-	width: 75%;
-	background-color: green;
+	margin: 5% 12% 0 12% !important;
+	width: 75% !important;
+	background-color: green !important;
+	border-radius:10px;
 }
 
 #aboutCity p:first-child{
-	font-size: 1.3em;
+	font-size: 1.3em !important;
 }
 
 #aboutCity p{
-	font-size:1em;
-	padding: 2% 2% 2% 2%;
-	background-color: red;
+	font-size:1em !important;
+	padding: 2% 2% 2% 2% !important;
 }
 
 footer{
