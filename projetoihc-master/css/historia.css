@@ -1,85 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
 }
 
 nav{
 	width: 70%;
 	margin:auto;
 }
-nav a{
-	text-decoration: none;
-	color: white;
-}
+
 ul {
 	list-style-type: none;
     margin: 0 0 0 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #be9632;
 }
 
 ul li {
 	float: left;
 	display: block;
 	text-align: center;
-    padding: 17px 16px;
-    font-size: 1.1em;
-}
-
-ul li:hover{
-	color: pink;
-	background-color: pink;
-}
-
-nav ul li:first-child{
-	padding: 0.7% 2% 0.7% 2%;
+    padding: 14px 16px;
 }
 
 #principal{
 	padding: 2% 0 2% 0;
 	width: 70%;
 	margin:auto;
-	background-color: #d3d3d3;
-	color: white;
+	background-color: #EDE2C8;
 }
 
 #title{
+	color: #8f0407db;
 	font-size:1.8em;
 	text-align:center;
-	background-color: orange;
+	background-color: #d3d3d3;
 	margin: 0 0 3% 0;
 }
 
 #text{
 	width:100%;
 	display: flex;
-	background-color: pink;
+	background-color: #EDE2C8;
 }
 
 #primeiraColuna{
+	color: black;
 	width:40%;
 	margin-left: 10%;
 	padding: 1% 2% 1% 2%;
 	display: inline-block;
-	background-color: purple;
+	text-align: justify;
+	background-color: #d3d3d3;
 }
 
 #segundaColuna{
+	color: black;
 	width:40%;
 	margin-right:10%;
 	padding: 1% 2% 1% 2%;
 	display: inline-block;
-	background-color: green;
+	text-align: justify;
+	background-color: #d3d3d3;
 }
 
 footer{
+	text-align: center;
 	width: 70%;
 	margin:auto;
-	padding: 1% 0 1% 0;
-	background-color: red;
-	text-align: center;
+	background-color: #be9632;
 }
