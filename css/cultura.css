@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -8,34 +9,25 @@
 nav{
 	width: 70%;
 	margin:auto;
+	background-color: #333;
 }
+
 nav a{
 	text-decoration: none;
 	color: white;
 }
-ul {
+
+a.nav-item{
 	list-style-type: none;
     margin: 0 0 0 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-}
-
-ul li {
-	float: left;
-	display: block;
-	text-align: center;
-    padding: 17px 16px;
+    color: white;
     font-size: 1.1em;
 }
 
-ul li:hover{
-	color: pink;
+a.nav-item:hover{
 	background-color: pink;
-}
-
-nav ul li:first-child{
-	padding: 0.7% 2% 0.7% 2%;
 }
 
 #title{
@@ -95,6 +87,7 @@ footer{
 	width: 70%;
 	margin:auto;
 	padding: 1% 0 1% 0;
-	background-color: red;
+	background-color: #333;
+	color: white;
 	text-align: center;
 }

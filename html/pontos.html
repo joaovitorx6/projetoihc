@@ -3,19 +3,30 @@
 <head>
 	<title> Turismo </title>
 	<link rel="stylesheet" type="text/css" href="../css/pontos.css">
+	<!-- ICONES -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-	<nav>
-		<ul> 
-			<li> <a href="principal.html"> <img src="../images/brasao_ceara_mirim.png" height="40px" /> </a> </li>
-			<li> <a href='historia.html'> <i class="fas fa-book-open">  História </i> </a> </li>
-			<li> <a href='pontos.html'> Turismo  </a> </li>
-			<li> <a href='cultura.html'> Cultura </a> </li>
-			<li> <a href='localizacao.html'> <i class="fas fa-globe-africa"> Localização </i> </a> </li>
-			<li> <a href='galeria.html'> <i class="fas fa-images">  Galeria </i> </a> </li>
-		</ul> 
+
+	<nav class="navbar navbar-expand-lg">
+	  <a class="navbar-brand" href="principal.html"><img src="../images/brasao_ceara_mirim.png" height="40px" /></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon">☰</span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+	    	<a class="nav-item nav-link" href="historia.html">História <span class="sr-only">(current)</span></a>
+	    	<a class="nav-item nav-link active" href="pontos.html">Turismo</a>
+	    	<a class="nav-item nav-link" href="cultura.html">Cultura</a>
+			<a class="nav-item nav-link" href="localizacao.html">Localização</a>
+			<a class="nav-item nav-link" href="galeria.html">Galeria</a>
+	    </div>
+	  </div>
 	</nav>
+
+	
 	<section id='principal'>
 		<div id="pontos">
 			<div>
@@ -75,5 +86,9 @@
 		<a> emailsemsentido@gmail.com </a>
 		<a> (84) 40028922 </a>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </body>
 </html>
